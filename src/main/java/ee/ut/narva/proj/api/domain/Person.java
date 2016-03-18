@@ -34,4 +34,7 @@ public class Person extends UniversallyUniqueIdentity {
     public Person(int age) {
         this.age = age;
     }
+
+    public Person() {
+    }
 }
