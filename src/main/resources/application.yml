@@ -1,0 +1,33 @@
+spring:
+    profiles:
+        active: dev
+    jpa:
+        open-in-view: false
+    social:
+        # see https://developers.google.com/+/web/signin/server-side-flow#step_1_create_a_client_id_and_client_secret
+        google:
+            clientId: xxx
+            clientSecret: xxx
+
+        # see https://developers.facebook.com/docs/facebook-login/v2.2
+        facebook:
+            clientId: xxx
+            clientSecret: xxx
+
+        # see https://apps.twitter.com/app/
+        twitter:
+            clientId: xxx
+            clientSecret: xxx
+    jackson:
+        serialization:
+            write_dates_as_timestamps: false
+            indent_output: true
+        serialization-inclusion: non_null
+
+
+security:
+    basic:
+        enabled: false
+
+server:
+    port: ${port:8080}
