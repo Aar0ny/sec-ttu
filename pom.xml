@@ -4,12 +4,12 @@
 
     <groupId>ee.ut.narva.sec-example</groupId>
     <artifactId>sec-ttu</artifactId>
-    <version>0.0.2-simple</version>
+    <version>0.0.3-simple-SNAPSHOT</version>
 
     <scm>
         <developerConnection>scm:git:git@github.com:marcinkevicius/sec-ut.git</developerConnection>
         <url>https://github.com/org/repo</url>
-        <tag>sec-ttu-0.0.2-simple</tag>
+        <tag>HEAD</tag>
     </scm>
 
 
